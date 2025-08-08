@@ -1,0 +1,42 @@
+.text{
+    border: 3px dotted #6729cc;
+    padding-left: 2px;
+    font-size: 20px;
+    transition: max-height 0.2s;
+    overflow: hidden;
+    display: block;
+}
+body{
+    font-family: 'cursive', FreeMono, monospace;
+    background-color: #e0e0e0;
+}
+.button2{
+    transition-property: transform;
+    transform: scale(1);
+    transition-duration: 0.3s;
+    float: right;
+    background-color: #6729cc;
+    color: whitesmoke;
+    font-size: 25px;
+}
+
+
+.button2:hover{
+    transition-property: transform;
+    transform: scale(1.05);
+    transition-duration: 0.5s;
+}
+.text-without-border{
+    padding-left: 2px;
+    font-size: 20px;   
+}
+footer{
+    border-top: 4px solid black;
+}
+@media screen and(max-width: 576px){
+    .image-type-1{
+        float: none;
+        padding-left: auto;
+        padding-right: auto;
+    }
+}
