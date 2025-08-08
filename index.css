@@ -11,7 +11,8 @@ html{
     transition-property: opacity, transform;
     transition-duration: 0.5s;
     transition-timing-function: ease-out;
-    width: 37%; height: 500px; 
+    width: 37%; height: 2%;
+    padding-top:500px;
     opacity: 70%;
     bottom: 594px;
 }
@@ -25,6 +26,7 @@ html{
     font-size: 45px; 
     color: whitesmoke; 
     overflow: hidden;
+   margin-bottom:4px;
 }
 .buttons{
     margin-top: 100px;
@@ -177,7 +179,10 @@ div#news3{
     }
     .img-text{
         font-size: 30px;
-        bottom: 700px;
+        bottom: 900px;
+    }
+    .layer{
+        height: 0px;
     }
 }
 @media screen and (max-width: 998px){
